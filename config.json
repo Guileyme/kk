@@ -1,0 +1,16 @@
+{
+    "drone_id": "rpi_v4_unit_1",
+    "hsv_settings": {
+        "lower": [35, 100, 100],
+        "upper": [85, 255, 255]
+    },
+    "detection": {
+    "min_radius": 20,
+    "entry_radius": 180,
+    "exit_radius": 150
+    },
+    "network": {
+        "server_ip": "192.168.1.50",
+        "port": 5555
+    }
+}
