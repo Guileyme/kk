@@ -49,7 +49,7 @@ def switch_mode(mode):
     current_mode = mode
     print(f"Переключил режим на: {mode}")
 
-BOT_TOKEN = "8528444550:AAFTH92E3yY-H04S0sQVDFZuNlP-5X0ONoY"
+BOT_TOKEN = "YOUR_API_KEY"
 BASE_URL = f"https://api.telegram.org/bot{BOT_TOKEN}"
 
 def make_request(url, data=None):
